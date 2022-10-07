@@ -793,7 +793,7 @@ main .container .left .profile {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 767px) {
     nav .search-bar {
         display: none;
     }
