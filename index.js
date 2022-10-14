@@ -117,7 +117,7 @@ fontSizes.forEach((size) => {
         size.classList.toggle('active');
 
         if (size.classList.contains('font-size-1')) {
-            fontSize = '10px';
+            fontSize = '5px';
             root.style.setProperty('--sticky-top-left', '5.4rem');
             root.style.setProperty('--sticky-top-right', '5.4rem');
         } else if (size.classList.contains('font-size-2')) {
@@ -129,11 +129,11 @@ fontSizes.forEach((size) => {
             root.style.setProperty('--sticky-top-left', '-2rem');
             root.style.setProperty('--sticky-top-right', '-17rem');
         } else if (size.classList.contains('font-size-4')) {
-            fontSize = '19px';
+            fontSize = '10px';
             root.style.setProperty('--sticky-top-left', '-5rem');
             root.style.setProperty('--sticky-top-right', '-25rem');
         } else {
-            fontSize = '22px';
+            fontSize = '15px';
             root.style.setProperty('--sticky-top-left', '-12rem');
             root.style.setProperty('--sticky-top-right', '-35rem');
         }
